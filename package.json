@@ -38,6 +38,7 @@
     "gh-pages": "^6.2.0",
     "postcss": "^8.4.38",
     "react-toastify": "^10.0.5",
+    "rollup-plugin-visualizer": "^5.12.0",
     "tailwindcss": "^3.4.3",
     "vite": "^5.2.0"
   }

@@ -1,7 +1,9 @@
-import React, { Suspense } from 'react'
+import React, { Suspense, lazy } from 'react'
 import { BrowserRouter } from "react-router-dom"
 import { ToastContainer } from 'react-toastify'
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas} from './components'
+const { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works } = lazy(() => import( './components'));
+import { StarsCanvas } from './components'
+
 
 import Loading from './loaders/Loading'
 
