@@ -15,7 +15,7 @@ const Navbar = () => {
           setActive("");
           window.scrollTo(0, 0);
         }}>
-          <img src={logo} alt='logo' className='w-20 h-20 object-contain' />
+          <img src={logo} alt='logo' className='w-14 h-14 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex'>
             Enock &nbsp;
             <span className='sm:block hidden'>| Uwumukiza</span>

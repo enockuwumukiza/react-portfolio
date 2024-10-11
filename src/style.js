@@ -1,20 +1,17 @@
 const styles = {
-  paddingX: "sm:px-20 px-8", 
-  paddingY: "sm:py-20 py-8", 
-  padding: "sm:px-20 px-8 sm:py-20 py-12",
+  paddingX: "sm:px-16 px-6",
+  paddingY: "sm:py-16 py-6",
+  padding: "sm:px-16 px-6 sm:py-16 py-10",
 
   heroHeadText:
-    "font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#ff7e5f] to-[#feb47b] lg:text-[85px] sm:text-[65px] xs:text-[55px] text-[45px] lg:leading-[105px] mt-4", 
-  
+    "font-black text-white lg:text-[80px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[98px] mt-2",
   heroSubText:
-    "text-[#cbb4d4] font-semibold lg:text-[32px] sm:text-[28px] xs:text-[22px] text-[18px] lg:leading-[44px] tracking-wide", 
-
+    "text-[#dfd9ff] font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px]",
 
   sectionHeadText:
-    "text-transparent bg-clip-text bg-gradient-to-r from-[#43cea2] to-[#185a9d] font-extrabold md:text-[65px] sm:text-[55px] xs:text-[45px] text-[35px] lg:leading-[80px]",
-
+    "text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]",
   sectionSubText:
-    "sm:text-[20px] text-[16px] text-[#a3bffa] uppercase tracking-wider font-medium", 
+    "sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider",
 };
 
 export { styles };
