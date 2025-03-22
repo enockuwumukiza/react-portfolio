@@ -189,10 +189,10 @@ const testimonials = [
   {
     testimonial:
       "After Enock optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Kalisa Mwema",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    name: "Joshua Ishimwe",
+    designation: "COO",
+    company: "Tech-7 Enterprises",
+    image: "https://res.cloudinary.com/dta7gezao/image/upload/v1726045453/samples/man-portrait.jpg",
   },
 ];
 

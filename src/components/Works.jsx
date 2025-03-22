@@ -51,7 +51,7 @@ const Works = () => {
                 
             </div>
             {
-              link && <a href={link} className='text-teal-300'>View Project</a>
+              link && <a href={link} target='_blank' className='text-teal-300'>View Project</a>
             }
         </Tilt>
       </motion.div>
