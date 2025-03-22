@@ -2,6 +2,7 @@ import React from 'react'
 import { Tilt } from 'react-tilt'
 import { motion } from 'framer-motion'
 import { styles } from '../style'
+import { Link } from 'react-router-dom'
 import { github } from '../assets'
 import SectionWrapper from '../hoc/SectionWrapper'
 import { projects } from '../constants'
@@ -10,7 +11,7 @@ import { fadeIn, textVariant } from '../utils/motion'
 
 const Works = () => {
 
-  const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
+  const ProjectCard = ({ index, name, description, tags, image, source_code_link, link }) => {
     return(
       <motion.div variants={fadeIn("up","spring", index * 0.5, 0.75)}>
         <Tilt
@@ -47,7 +48,11 @@ const Works = () => {
                   #{tag.name}
                 </p>
               ))}
+                
             </div>
+            {
+              link && <a href={link} className='text-teal-300'>View Project</a>
+            }
         </Tilt>
       </motion.div>
     )

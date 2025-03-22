@@ -8,6 +8,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import music from "./music_player.png";
 import news from "./news_app.png"
+import bank from './bank.png'
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -64,4 +65,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  bank
 };

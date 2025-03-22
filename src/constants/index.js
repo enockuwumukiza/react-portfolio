@@ -22,6 +22,7 @@ import {
   shopify,
   carrent,
   jobit,
+  bank,
   tripguide,
   threejs,
 } from "../assets";
@@ -172,17 +173,17 @@ const testimonials = [
   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Enock proved me wrong.",
-    name: "Shirayo Kidega",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    name: "Emmanuel",
+    designation: "Developer",
+    company: "INES",
+    image: "https://res.cloudinary.com/dta7gezao/image/upload/v1739806171/user_files/ulkestfptbyk1wqbtlsz.jpg",
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Enock does.",
     name: "James Karl",
-    designation: "COO",
-    company: "DEF Corp",
+    designation: "CEO",
+    company: "E-Live",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
@@ -261,6 +262,25 @@ const projects = [
       },
     ],
     image: chat,
+    link:"https://echat-fieq.onrender.com",
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Banking System",
+    description:
+      "Simple simulation of banking system",
+    tags: [
+      {
+        name: "django",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      }
+    ],
+    image: bank,
+    link:"https://mybank-tbl5.onrender.com",
     source_code_link: "https://github.com/",
   },
 ];

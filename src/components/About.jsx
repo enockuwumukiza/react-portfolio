@@ -34,7 +34,7 @@ const About = () => {
       <motion.p variants={fadeIn("","",0.1,1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am skilled web developer with 1 year of experience in JavaScript and frameworks like ReactJS, ExpressJs and NodeJS. I am a quick learner and collaborate closely with other students worldwide. When I get opportunity I closely colaborate with the clients to create efficient, scalable solutions that solve real world programs.
+        I am skilled web developer with {new Date().getFullYear() - 2022} years of experience in JavaScript and frameworks like ReactJS, ExpressJs, NodeJS, Django and FastAPI. I am a quick learner and collaborate closely with other students worldwide. When I get opportunity I closely colaborate with the clients to create efficient, scalable solutions that solve real world programs.
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service,index) =>(
